@@ -1,0 +1,25 @@
+# ===== Python =====
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.venv/
+venv/
+
+# ===== IDE =====
+.vscode/
+.idea/
+*.swp
+*~
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== Large model files (390MB, exceeds GitHub 100MB limit) =====
+# Use Git LFS or cloud storage for these:
+checkpoints/best_model.pt
+*.pt
+*.pth
+*.h5
